@@ -9,5 +9,11 @@ license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 
+dependencies = [
+  "requests",
+  "BeautifulSoup4"
+]
+
+
 [project.urls]
 Home = "https://github.com/Carreau/multi-index"
